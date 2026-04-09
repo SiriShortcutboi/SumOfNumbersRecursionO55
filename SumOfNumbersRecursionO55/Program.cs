@@ -9,7 +9,7 @@ class Program
                                      
     } //Finished program, im just gonna be done with the base 
     // level on this one, the other assignment i was spinning
-    //  my wheels far too long
+    //  my wheels far too long on bonus content
 
     static int Sum(int number)
     {
