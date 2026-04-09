@@ -6,18 +6,23 @@ class Program
     static void Main()
     {
         Console.WriteLine(Sum(5));
-                                      
-    }
+                                     
+    } //Finished program, im just gonna be done with the base 
+    // level on this one, the other assignment i was spinning
+    //  my wheels far too long
 
     static int Sum(int number)
     {
         //Exit case, base case (NEEDS AN EXIT CASE on top of it)
         if (number == 1)
         {
+            Console.WriteLine("equals"); 
             return 1;
         }
         else{ //recursive call
+        Console.WriteLine(number + " plus");
         return number + Sum(number - 1);
+        
         }
     //call stack looks ike this 
     // 5 * Factorial Solver(4)
